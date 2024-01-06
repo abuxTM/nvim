@@ -1,7 +1,7 @@
 # Simple NeoVim config
 
-![image](https://github.com/abuxTM/nvim/assets/104513379/c7ae5032-9b6c-4161-a449-324263d521c2)
-![image](https://github.com/abuxTM/nvim/assets/104513379/997b8a6d-0c56-400d-8a18-55b5c8cb36b9)
+![image](https://github.com/abuxTM/nvim/assets/104513379/a55938d6-e1c3-4cc4-ad2e-b741e395434f)
+![image](https://github.com/abuxTM/nvim/assets/104513379/879c12ae-b34e-4f0d-8e0a-b817592d08cc)
 
 **Included Plugins**
 - Lazy vim
