@@ -18,7 +18,8 @@ vim.keymap.set('n', '<leader><F2>', ':%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Le
 ----> Plugins <----
 
 -- Bufferline
-vim.keymap.set('n', '<leader>bl', ':BufferLinePick<CR>')
+vim.keymap.set('n', '<TAB>', ':BufferLineCycleNext<CR>')
+vim.keymap.set('n', '<s-TAB>', ':BufferLineCyclePrev<CR>')
 
 -- Telescope
 vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<CR>')
