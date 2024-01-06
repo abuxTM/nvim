@@ -23,6 +23,9 @@ vim.keymap.set('n', '<leader>bl', ':BufferLinePick<CR>')
 -- Telescope
 vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<CR>')
 
+-- TODO Telescope
+vim.keymap.set('n', '<leader>ft', '<cmd>TodoTelescope<CR>')
+
 -- NvTree
 vim.keymap.set('n', '<leader>ee', '<cmd>NvimTreeToggle<CR>')
 vim.keymap.set('n', '<leader>F', '<cmd>NvimTreeFocus<CR>')
