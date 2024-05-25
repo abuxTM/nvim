@@ -17,16 +17,17 @@ vim.keymap.set('n', '<leader><F2>', ':%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Le
 
 ----> Plugins <----
 
+
 -- Bufferline
 vim.keymap.set('n', '<TAB>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<s-TAB>', ':BufferLineCyclePrev<CR>')
 
 -- Telescope
-vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<CR>')
+vim.keymap.set('n', '<leader><leader>', '<cmd>Telescope find_files<CR>')
 
 -- TODO Telescope
 vim.keymap.set('n', '<leader>ft', '<cmd>TodoTelescope<CR>')
 
 -- NvTree
-vim.keymap.set('n', '<leader>ee', '<cmd>NvimTreeToggle<CR>')
+vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<CR>')
 vim.keymap.set('n', '<leader>F', '<cmd>NvimTreeFocus<CR>')

@@ -4,8 +4,8 @@ return {
 
   config = function ()
     -- disable netrw at the very start of your init.lua
-    --vim.g.loaded_netrw = 1
-    --vim.g.loaded_netrwPlugin = 1
+    vim.g.loaded_netrw = 1
+    vim.g.loaded_netrwPlugin = 1
 
     -- set termguicolors to enable highlight groups
     vim.opt.termguicolors = true
@@ -19,6 +19,9 @@ return {
       },
       renderer = {
         group_empty = true,
+        indent_markers = {
+          enable = true,
+        },
       },
       filters = {
         dotfiles = true,
